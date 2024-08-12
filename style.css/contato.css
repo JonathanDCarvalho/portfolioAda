@@ -1,0 +1,50 @@
+.contato {
+    max-width: 75rem;
+    padding: 2.5rem 1.25rem;
+    margin: 0 auto;
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.contato h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.formulario-inputs input {
+    padding: 15px 60px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #8b31f1;
+    margin-bottom: 20px;
+    background: transparent;
+}
+
+.caixa-texto {
+    border: 2px solid #8b31f1;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.enviar-botao {
+    display: block;
+    padding: 15px 60px;
+    background: linear-gradient(#994df0, #2a0286);
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.enviar-botao:hover {
+    background: linear-gradient(#8b31f1, #994df0);
+}

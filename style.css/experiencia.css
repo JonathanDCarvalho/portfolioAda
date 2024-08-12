@@ -16,3 +16,15 @@
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
 }
+
+.experiencia-trabalhos {
+    border: 2px solid #8b31f1;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.experiencia-trabalhos img {
+    border-radius: 10px;
+    max-width: 50%;
+}

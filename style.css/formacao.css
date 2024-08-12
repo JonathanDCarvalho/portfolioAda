@@ -97,3 +97,8 @@
 .timeline-content:hover::before {
     width: 100%;
 }
+
+.idiomas {
+    text-align: center;
+    font-size: 1.2rem;
+}

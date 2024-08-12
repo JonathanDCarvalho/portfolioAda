@@ -1,0 +1,146 @@
+<!--
+    Enunciado Atividade Individual 1
+
+    PRINCIPAL (1000XP): 
+    Criar um mini-currículo/portfólio contendo:
+
+    - Uma imagem profissional sua e seu nome completo (100XP);
+    - Um parágrafo falando mais sobre você (50XP);
+    - Para cada empresa ou projeto no qual você trabalhou, botar uma imagem da logo ou ilustrativa, e indicar a experiência que teve nela e quais linguagens utilizou (formato de tabela) (200XP);
+    - Apresentar uma lista das línguas que tem proficiência (indicar nível ao lado, sendo os mesmos do Linkedin) (100XP);
+    - Apresentar um ranking de empresas que deseja trabalhar (100XP);
+    - Lembre-se de separar as seções acima, indicando-as por títulos próprios (100XP);
+    - Apresentar um formulário no final da página para que possam entrar em contato (100XP);
+    - A página deve ter um header, com navegação entre seções, e um footer (150XP);
+    - Utilize o máximo de CSS possível para deixar o seu currículo apresentável (100XP).
+
+    EXTRA (200XP):
+    * A navegação deve funcionar na mesma página, com uma animação indo até a seção clicada (50XP);
+    * Otimizar a sua página para SEO e deixá-la mais acessível (150XP).
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Carvalho</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logotipo">Jonathan</a>
+        <nav>
+            <ul class="header-menu">
+                <li><a href="#sobre" class="active">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="introducao">
+        <div>
+            <h1>Desenvolvedor<br> Front End <span class="detalhe">&</span><br> <span class="detalhe">UX/UI</span> Designer</h1>
+            <div class="introducao-links">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+            <div>
+                <ul class="introducao-icones">
+                    <li><a href="https://github.com/JonathanDCarvalho" target="_blank"><i class='bx bxl-github'></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/jonathandcarvalhoti/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                    <li><a href="https://www.facebook.com/JonathanCarvalho314/" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <img src="img/Hidden-amico.svg" alt="Jonathan Carvalho">
+        </div>
+    </main>
+
+    <section class="sobre" id="sobre" aria-label="Sobre Mim">
+        <div class="sobre-conteudo">
+            <h2>Olá</h2>
+            <h3>Meu nome é Jonathan Carvalho</h3>
+            <p>Tenho 22 anos e estou cursando Ciência da Computação na Descomplica. Meu foco é aprender cada vez mais para me tornar um Desenvolvedor FullStack.</p>
+            <div class="sobre-links">
+                <a href="https://github.com/JonathanDCarvalho" target="_blank">Github <i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/jonathandcarvalhoti/" target="_blank">Linkedin <i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+        <img src="img/Foto.jpeg" alt="Jonathan Carvalho">
+    </section>
+    <section class="experiencia" id="experiencia" aria-label="Experiência">
+        <h2>Minhas Experiências</h2>
+        <div class="experiencia-conteudo">
+            <img src="img/experiencias/Finetornos_s_b.webp" alt="Finetornos">
+            <p>Atuava no setor de TI, onde era responsável pela manutenção preventiva e corretiva dos computadores, assim como o desenvolvimento da criação desses dados e lançamento para consulta. Também atuava na área administrativa onde tinha a responsabilidade de manter a integridade do setor e buscar melhorias, assim como lançamento de indicadores MTTR (Tempo Médio para Reparo) e MTBF (Tempo Médio entre falhas) para consulta e análise. Também era responsável pela aplicação de treinamentos para planos de contingência, e criação dos mesmos, manter a integridade e disponibilidade de todos os recursos classificados como tecnológicos, organização de Rack de Rede, criação e exclusão de usuários no active directory e análise do uso da rede.</p>
+        </div>
+        <div class="experiencia-conteudo">
+            <img src="img/experiencias/pirelli1.png" alt="Pirelli">
+            <p>Atuava no setor de Programação de Fábrica onde era responsável por preencher dados no Excel, gerar gráficos e tabelas dinâmicas, assim como fazer a análise desses dados e criar Dashboards no PowerBI</p>
+        </div>
+        <div class="experiencia-conteudo">
+            <img src="img/experiencias/logo.png" alt="NCC Group">
+            <p>Atualmente trabalho na NCC Group como Estagiário de desenvolvimento em fluig. Sou responsável por criar novas funcionalidades, fazer documentações e resolver problemas diversos utilizando HTML, CSS, JavaScript, Node.js, MySQL</p>
+        </div>
+    </section>
+    <section class="formacao" id="formacao" aria-label="Formação">
+        <h2>Formação</h2>
+
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2017
+                </div>
+                <div class="timeline-content">
+                    <h3>CTECAMP</h3>
+                    <p>Curso Técnico de Informática</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2021
+                </div>
+                <div class="timeline-content">
+                    <h3>Unimetrocamp</h3>
+                    <p>Ciência da Computação</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2023
+                </div>
+                <div class="timeline-content">
+                    <h3>Descomplica</h3>
+                    <p>Ciência da Computação</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2024
+                </div>
+                <div class="timeline-content">
+                    <h3>Santander Coders</h3>
+                    <p>Front-End</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.interesses {
+    max-width: 75rem;
+    padding: 2.5rem 1.25rem;
+    margin: 0 auto;
+}
+
+.interesses h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.interesses-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.interesses-empresas {
+    border: 2px solid #8b31f1;
+    box-shadow: 0 0 10px #8b31f1;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.interesses-empresas img {
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.interesses-empresas:hover {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.interesses-empresas::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(#994df0, #2a0286);
+    transition: .5s;
+    z-index: -1;
+}
+
+.interesses-empresas:hover::before {
+    width: 100%;
+}
+
